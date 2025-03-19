@@ -1,0 +1,23 @@
+.icon {
+    width: 50%;
+    height: auto;
+}
+.dark {
+    @mixin dark {
+      display: none;
+    }
+  
+    @mixin light {
+      display: block;
+    }
+  }
+  
+  .light {
+    @mixin light {
+      display: none;
+    }
+  
+    @mixin dark {
+      display: block;
+    }
+  }
