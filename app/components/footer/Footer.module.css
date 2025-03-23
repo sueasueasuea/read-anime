@@ -1,0 +1,8 @@
+.container {
+    background-color: var(--mantine-primary-color-6);
+    height: auto;
+
+}
+.content {
+    composes: content from "../header/Header.module.css";
+}

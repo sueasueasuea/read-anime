@@ -1,3 +1,4 @@
+import Footer from "./components/footer/Footer";
 import Header from "./components/header/Header";
 import styles from "./page.module.css";
 
@@ -6,7 +7,7 @@ export default function Home() {
     <div className={styles.page}>
       <Header />
       <main className={styles.main}></main>
-      <footer className={styles.footer}></footer>
+      <Footer/>
     </div>
   );
 }
