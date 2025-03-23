@@ -5,4 +5,5 @@
 }
 .content {
     composes: content from "../header/Header.module.css";
+    
 }
