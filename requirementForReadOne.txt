@@ -1,0 +1,27 @@
+(Reader)
+main page
+main page which filter only comics
+main page which filter only novel
+
+search page
+most popular (anything writers,views,sales,) page
+login page
+forgot password page
+register page
+
+(auth)
+top-up page (promtpay)
+profile & setting page
+
+(Writer, translater)
+(auth)
+create content page
+profile & setting page
+
+
+social media
+สำหรับผู้ใช้ที่มีบัญชีเดิมอยู่แล้ว
+
+ผู้ใช้ที่อีเมลเข้าใช้งานแพลตฟอร์ม และอีเมลเข้าใช้งานบัญชีโซเชียลของคุณ ไม่ตรงกัน หากต้องการเชื่อมโยงบัญชีของคุณกับบัญชีโซเชียล กรุณาเข้าล๊อคอินเข้าไปยังเมนูตั้งค่าบัญชี จากนั้นเชื่อมโยงบัญชีของคุณกับบัญชีโซเชียลนี้ก่อน หากคุณเข้าสู่ระบบผ่านบัญชีโซเชียลโดยไม่มีการเชื่อมโยง บัญชีผู้ใช้งานจะถูกสร้างใหม่ทันที!
+
+ผู้ใช้ที่อีเมลเข้าใช้งานแพลตฟอร์ม และอีเมลเข้าใช้งานบัญชีโซเชียลของคุณ ตรงกัน ระบบจะทำการตรวจสอบอีเมลและเชื่อมโยงบัญชีให้โดยอัตโนมัติ คุณจะสามารถเข้าใช้งานด้วยบัญชีเดิมของคุณในแพลตฟอร์มได้ทันที!

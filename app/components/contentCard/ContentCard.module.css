@@ -1,0 +1,15 @@
+.item {
+    grid-row: span 3 / span 3;
+    border: solid 1px;
+    height: 20rem;
+}
+
+.titleContainer {
+  display: flex;
+  justify-content: flex-start;
+}
+.authorContainer {
+    display: flex;
+    gap: var(--mantine-spacing-xs);
+    align-items: center;
+}

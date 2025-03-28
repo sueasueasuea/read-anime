@@ -15,9 +15,3 @@
     grid-template-rows: repeat(3, 1fr);
     gap: var(--mantine-spacing-xs) ;
 }
-
-.item {
-    grid-row: span 3 / span 3;
-    border: solid 1px;
-   
-}
