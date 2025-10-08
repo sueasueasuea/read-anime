@@ -25,7 +25,7 @@ const ContentCard = (props: ContentCardProps) => {
   return (
     <Card
       component={Link}
-      href={`/novel/${id}`}
+      href={`/novels/${id}`}
       target="_self"
       shadow="sm"
       withBorder
