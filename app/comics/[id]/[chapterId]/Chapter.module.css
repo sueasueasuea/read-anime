@@ -1,0 +1,14 @@
+.container {
+  flex: 1;
+  padding-top: 50px;
+}
+
+.content {
+  max-width: 72rem;
+  margin: auto;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+}

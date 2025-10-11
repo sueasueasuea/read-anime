@@ -1,0 +1,51 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+  output   = "../app/generated/prisma"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id          String  @id @default(cuid())
+  firstName   String
+  LastName    String
+  displayName String  @unique
+  Comic       Comic[]
+}
+
+model Comic {
+  id          String    @id @default(cuid())
+  title       String
+  description String?
+  coverUrl    String
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+  chapters    Chapter[]
+  published   Boolean   @default(false)
+  author      User      @relation(fields: [userId], references: [id])
+  userId      String
+}
+
+model Chapter {
+  id        String   @id @default(cuid())
+  title     String
+  order     Int
+  comic     Comic    @relation(fields: [comicId], references: [id])
+  comicId   String
+  frames    Frame[]
+  createdAt DateTime @default(now())
+}
+
+model Frame {
+  id        Int     @id @default(autoincrement())
+  imageUrl  String
+  order     Int
+  chapter   Chapter @relation(fields: [chapterId], references: [id])
+  chapterId String
+}
