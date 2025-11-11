@@ -19,8 +19,8 @@ export const theme = createTheme({
     myColor,
   },
   fontFamily: mali.style.fontFamily,
-  fontFamilyMonospace: 'Monaco, Courier, monospace',
+  fontFamilyMonospace: "Monaco, Courier, monospace",
   autoContrast: true,
   primaryColor: "myColor",
-  primaryShade: 6
+  primaryShade: 6,
 });

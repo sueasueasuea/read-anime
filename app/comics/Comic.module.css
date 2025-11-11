@@ -1,17 +1,16 @@
 .container {
   flex: 1;
-  padding-top:50px;
-  
+  padding-top: 50px;
 }
 
 .content {
-    max-width: 72rem;
-    margin: auto;
+  max-width: 72rem;
+  margin: auto;
 }
 
 .list {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    gap: var(--mantine-spacing-xs) ;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: var(--mantine-spacing-xs);
 }
